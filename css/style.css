@@ -1,0 +1,428 @@
+/* inter-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/inter-v12-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v12-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v12-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* font2 */
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* iruuwfuty */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  object-fit: cover;
+  display: flex;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background: #e9f5ff;
+}
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+main {
+  /* flex-grow: 1; */
+  margin-top: -36px;
+  /* o'zgartir */
+}
+/* header */
+.header {
+  background-color: #1391ceb2;
+  /* position: fixed; */
+  width: 100%;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.container {
+  padding: 41px;
+}
+.site-logo {
+  display: block;
+  margin-right: auto;
+}
+.site-logo__img {
+}
+.site-nav {
+  margin-right: 32px;
+}
+.site-nav__list {
+  display: flex;
+  gap: 32px;
+}
+.site-nav__item {
+}
+.site-nav__link {
+  color: #25468a;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.dosc {
+  color: #ffffff;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.header_button {
+  padding: 9px 16px;
+  color: #14274c;
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 24px;
+  background: #fff;
+}
+/* header tugadi */
+/* main */
+.hero {
+  margin-top: 36px;
+  padding-top: 110px;
+  background-color: #1391ceb2;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__content {
+  width: 100%;
+  max-width: 560px;
+}
+.hero__title {
+  margin-bottom: 8px;
+  width: 560px;
+  height: 108px;
+  flex-shrink: 0;
+  color: #25468a;
+  font-family: "Roboto" sans-serif;
+  font-size: 92px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero__description {
+  margin-bottom: 42px;
+  width: 560px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #3b4a6b;
+  font-family: "Roboto" sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__descriptionikki {
+  margin-bottom: 24px;
+  width: 560px;
+  height: 55px;
+  flex-shrink: 0;
+  color: #3b4a6b;
+  font-family: "Roboto" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__link {
+  margin-bottom: 138px;
+  color: #3b4a6b;
+  font-family: "Roboto" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  border-radius: 26px;
+  background: #f7ba0e;
+
+  padding: 15px 85px;
+}
+/* section2 */
+.uchtadiv {
+  margin-top: 176px;
+  display: flex;
+  gap: 42px;
+
+  margin-bottom: 63px;
+}
+.heroi__divbir1 {
+  width: 352px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #1391ce;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+    0px 10px 15px 0px rgba(31, 100, 133, 0.1);
+  padding-top: 69px;
+  padding-bottom: 68px;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+.heroi__pbir1 {
+  width: 260px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.88px;
+}
+
+/* section2 tugadi */
+/* section3 */
+.rasm-text {
+  /* width: 1140px;
+  height: 3062px; */
+}
+.rasm-text__h3 {
+  margin-top: -63px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 387px;
+  height: 88px;
+  color: #1391ce;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 121.3%;
+  letter-spacing: 0.36px;
+}
+.before {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 0px;
+  width: 160px;
+  height: 8px;
+  flex-shrink: 0;
+  background: #f7ba0e;
+}
+.rasm-text__birbol {
+  margin-top: 96px;
+  width: 1120px;
+  height: 408px;
+  flex-shrink: 0;
+  display: flex;
+}
+.rasm-text__img {
+  width: 560px;
+  height: 408px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  margin-left: -25px;
+}
+.rasm-text__birtext {
+  width: 448px;
+  height: 256px;
+  flex-shrink: 0;
+  margin-left: 112px;
+}
+.rasm-text__birp {
+  color: #25468a;
+  font-family: "Inter" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.3%;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.rasm-text__birh2 {
+  color: #1391ce;
+  font-family: "Inter" sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 134.3%;
+  letter-spacing: 0.32px;
+  margin-bottom: 32px;
+}
+.rasm-text__birpikki {
+  width: 448px;
+  color: var(--gray-2, #4f4f4f);
+  font-family: "Inter" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.3%;
+  letter-spacing: 0.36px;
+}
+/* section3 tugadi */
+/* section4 */
+.rasm-text1 {
+  margin-top: 128px;
+  display: flex;
+}
+.rasm-text1__textlari {
+  width: 481px;
+  height: 455px;
+  flex-shrink: 0;
+  margin-right: 148px;
+}
+/* .rasm-text__birp {
+  background-color: red;
+}
+.rasm-text__birh2 {
+}
+.rasm-text__birpikki {
+} */
+.rasm-text1__h5 {
+  margin-top: 24px;
+  margin-bottom: 18px;
+  color: #1391ce;
+  font-family: "Inter" sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 134.3%;
+  letter-spacing: 0.44px;
+}
+.rasm-text1__ul {
+}
+.rasm-text1__li {
+  color: var(--gray-2, #4f4f4f);
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.3%;
+  letter-spacing: 0.32px;
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rasm-text1__textlarioxiri {
+  margin-left: 112px;
+}
+/* section4 tugadi */
+.footer {
+  background: #1391ce;
+  display: inline;
+}
+.content__psi {
+  width: 436px;
+  margin-right: 497px;
+  color: var(--color-neutral-black-1, #302e2f);
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.3%;
+  letter-spacing: 0.16px;
+}
+.content__spani {
+  color: #fff;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 134.3%;
+  letter-spacing: 0.16px;
+}
+.content__psi2 {
+  width: 187px;
+  color: var(--color-neutral-black-1, #343233);
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.3%;
+  letter-spacing: 0.16px;
+}
+.content__spani2 {
+  color: #fff;
+  font-family: "Inter" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 134.3%;
+  letter-spacing: 0.16px;
+}
+/* main tugadi */
